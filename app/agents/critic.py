@@ -13,11 +13,10 @@ async def critic_node_func(ctx: dict):
     user = f"Idea: {idea}\nSources: {sources[:3]}\nRespond in strict JSON only."
     messages = [{'role':'system','content':system}, {'role':'user','content':user}]
     try:
-        resp = await llm.chat(messages)
+        resp = await llm.invoke(messages)
     except Exception as e:
-        # fallback heuristic if LLM fails
         resp = '{"novelty":0.5, "market_fit":0.6, "risks":[], "suggestions":["Use niche targeting"]}'
-    # save as text and try parse
+
     mem.save_run_step(ctx['run_id'], 'critic', {'raw': resp})
     try:
         import json
