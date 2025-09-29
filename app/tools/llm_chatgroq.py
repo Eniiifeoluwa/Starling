@@ -1,7 +1,7 @@
 import os
 try:
     from langchain_groq import ChatGroq
-    from langchain_core.schema import HumanMessage, SystemMessage, AIMessage
+    from langchain_core.messages import HumanMessage, SystemMessage, AIMessage
 except Exception as e:
     # Provide a minimal fallback stub that raises an actionable error when used.
     ChatGroq = None
