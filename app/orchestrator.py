@@ -1,10 +1,10 @@
 
 import uuid, asyncio
-from app.langgraph_def import build_graph
-from app.memory.store import MemoryStore
-from app.agents.reader import reader_node_func
-from app.agents.critic import critic_node_func
-from app.agents.builder import builder_node_func
+from langgraph_def import build_graph
+from memory.store import MemoryStore
+from agents.reader import reader_node_func
+from agents.critic import critic_node_func
+from agents.builder import builder_node_func
 
 class GraphOrchestrator:
     def __init__(self):
