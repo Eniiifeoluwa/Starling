@@ -1,7 +1,7 @@
-langgraph>=0.2.0
-langchain>=0.1.0
-langchain-groq>=0.1.0
-gitpython>=3.1.31
-pytest>=7.4.0
-python-dotenv>=1.0.0
-sqlalchemy>=2.1.4
+langgraph
+langchain
+langchain-groq
+gitpython
+pytest
+python-dotenv
+sqlalchemy
