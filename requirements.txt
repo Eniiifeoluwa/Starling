@@ -1,7 +1,7 @@
 streamlit
-langchain==0.3.7
-langgraph==0.2.24
-langchain-groq==0.1.4
-sqlite-utils==3.37
-python-dotenv==1.0.1
-rich==14.1.0
+langchain
+langgraph
+langchain-groq
+sqlite-utils
+python-dotenv
+rich
