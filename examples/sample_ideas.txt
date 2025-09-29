@@ -1,0 +1,3 @@
+A collaborative code review assistant
+Automated grant writer for researchers
+Smart contract analyzer for security
