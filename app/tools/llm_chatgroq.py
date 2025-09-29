@@ -1,11 +1,6 @@
-
-"""ChatGroq wrapper using LangChain Groq integration.
-
-Note: This file expects `GROQ_API_KEY` in the environment.
-"""
 import os
 try:
-    from langchain_groq.chat_models import ChatGroq
+    from langchain_groq import ChatGroq
     from langchain_core.schema import HumanMessage, SystemMessage, AIMessage
 except Exception as e:
     # Provide a minimal fallback stub that raises an actionable error when used.
