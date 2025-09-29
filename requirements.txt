@@ -1,4 +1,4 @@
-streamlit==1.39.0
+streamlit
 langchain==0.3.7
 langgraph==0.2.24
 langchain-groq==0.1.4
