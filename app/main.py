@@ -6,7 +6,7 @@ def run():
     st.set_page_config(page_title='Starling Agent', layout='wide')
     st.title('Starling Agent 🐦 — Autonomous Startup Builder (LangGraph + ChatGroq)')
 
-    st.markdown('Enter a startup idea, choose dry-run or real-run, and watch the agents work together. No OpenAI used — ChatGroq is the LLM.')
+    st.markdown('Enter a startup idea, choose dry-run or real-run, and watch the agents work together.')
 
     idea = st.text_area('Startup idea', value='A smart email assistant for developers', height=140)
     cols = st.columns([3,1])
