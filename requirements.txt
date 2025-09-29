@@ -6,3 +6,4 @@ gitpython
 pytest
 python-dotenv
 sqlalchemy
+-e .

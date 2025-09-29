@@ -1,6 +1,6 @@
 
 import streamlit as st
-from .app.orchestrator import GraphOrchestrator
+from app.orchestrator import GraphOrchestrator
 
 st.set_page_config(page_title='Starling Agent', layout='wide')
 st.title('Starling Agent 🐦 — Autonomous Startup Builder (LangGraph + ChatGroq)')
