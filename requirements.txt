@@ -1,9 +1,7 @@
-streamlit
-langgraph
-langchain
-langchain-groq
-gitpython
-pytest
-python-dotenv
-sqlalchemy
--e .
+streamlit==1.39.0
+langchain==0.3.7
+langgraph==0.2.24
+langchain-groq==0.1.4
+sqlite-utils==3.37
+python-dotenv==1.0.1
+rich==14.1.0
