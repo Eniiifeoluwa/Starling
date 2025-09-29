@@ -13,7 +13,7 @@ except Exception as e:
     HumanMessage = SystemMessage = AIMessage = None
 
 class ChatGroqWrapper:
-    def __init__(self, model: str = 'llama3-8b-8192', temperature: float = 0.7):
+    def __init__(self, model: str = 'llama-3.1-8b-instant', temperature: float = 0.7):
         api_key = os.getenv('GROQ_API_KEY')
         if not api_key:
             raise RuntimeError('GROQ_API_KEY not set in environment. Please set it before running the Critic agent.')
